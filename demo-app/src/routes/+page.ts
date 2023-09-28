@@ -1,7 +1,7 @@
-import { redirect } from '@sveltejs/kit';
-import type { PageLoad } from './$types';
+// import { redirect } from '@sveltejs/kit';
+// import type { PageLoad } from './$types';
 
-export const load: PageLoad = async () => {
-	throw redirect(301, '/components/Slides');
-};
+// export const load: PageLoad = async () => {
+// 	throw redirect(301, '/components/Slides');
+// };
 
